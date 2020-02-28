@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "D:\\PROJECTS\\GO\\Test"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH": "c:\\Go;${env:PATH}",
+			"GOPATH": "d:\\PROJECTS\\GO",
+			"GOROOT": "C:\\Go",
+		}
+	}
+}
