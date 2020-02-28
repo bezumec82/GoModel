@@ -2,16 +2,32 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build and run",
+            "label": "GoOpenGL",
             "type": "shell",
-            "command": "go",
+            "command": "",
             "args": [
-                "build", "-o",  "${workspaceFolder}\\out\\${workspaceFolderBasename}.exe"
+                "cd", "./GoOpenGl;",
+                "go", "build", "-o", "${workspaceFolder}/out/GoOpenGl.exe"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
-        }
+        },
+        {
+            "label": "Tree",
+            "type": "shell",
+            "command": "",
+            "args": [
+                "cd", "./Tree;",
+                "go", "build", "-o", "${workspaceFolder}/out/Tree.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+
+
     ]
 }

@@ -5,8 +5,9 @@
 		}
 	],
 	"settings": {
+		"go.gopath" : "d:\\PROJECTS\\GO",
 		"terminal.integrated.env.windows": {
-			"PATH": "c:\\Go;${env:PATH}",
+			"PATH": "c:\\Go;c:\\MinGW\bin;${env:PATH}",
 			"GOPATH": "d:\\PROJECTS\\GO",
 			"GOROOT": "C:\\Go",
 		}
