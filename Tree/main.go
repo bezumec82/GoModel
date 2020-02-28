@@ -2,15 +2,15 @@ package main
 
 import (
     "runtime"
-	"fmt"
-	"container/list"
+    "fmt"
+    "container/list"
 )
 
 type Node struct {
-	var value interface{}
-	list NodeList
+    var value interface{},
+    list NodeList
 }
 
 func main() {
-	node := Node{}
+    node := Node{}
 }

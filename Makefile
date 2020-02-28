@@ -1,12 +1,16 @@
-# Go parameters
+# WIN10 
 GOCMD=go
 GOBUILD=$(GOCMD) build
 
-OUTPUT_DIR=./out
+define BUILD
+	echo Building $(1)
+	dir
+	cd .\$(1) && \
+	${GOBUILD} -o ../out/$(1).exe
+	cd ..
 
-all: build
+endef
 
-build:
-	echo "Building GoOGL"
-	cd GoOGL
-	${GOBUILD} -o ${OUTPUT_DIR}/GoOGL.exe
+PROJECTS = GoOpenGL Tree
+all:
+	$(foreach project,$(PROJECTS),$(call BUILD,$(project)))
