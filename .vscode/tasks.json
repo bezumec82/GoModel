@@ -6,28 +6,37 @@
             "type": "shell",
             "command": "",
             "args": [
-                "cd", "./GoOpenGl;",
-                "go", "build", "-o", "${workspaceFolder}/out/GoOpenGl.exe"
+                "cd",
+                "./GoOpenGl;",
+                "go",
+                "build",
+                "-o",
+                "${workspaceFolder}/out/GoOpenGl.exe;"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": [
+                "$go"
+            ]
         },
         {
             "label": "Tree",
             "type": "shell",
             "command": "",
             "args": [
-                "cd", "./Tree;",
-                "go", "build", "-o", "${workspaceFolder}/out/Tree.exe"
+                "cd",
+                "./Tree;",
+                "go",
+                "build",
+                "-o",
+                "${workspaceFolder}/out/Tree.exe;"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             }
-        },
-
-
+        }
     ]
 }

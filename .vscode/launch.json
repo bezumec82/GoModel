@@ -6,9 +6,9 @@
         "type": "go",
         "request": "launch",
         "mode": "auto",
-        "program": "${workspaceRoot}\\main.go",
+        "program": "${workspaceRoot}\\Tree\\main.go",
         "env": {
-          "PATH": "c:\\Go\\bin:${workspaceFolder}"
+          "PATH": "c:\\Go\\bin;${workspaceFolder}"
         },
         "args": []
       }

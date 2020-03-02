@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "D:\\PROJECTS\\GO\\Test"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": 
+		{
+			//mingw64 gcc is needed
+			"PATH": "c:\\Go\\bin;c:\\Program Files\\mingw-w64\\x86_64-4.8.5-posix-sjlj-rt_v4-rev0\\mingw64\\bin;${env:PATH}",
+			"GOPATH": "d:\\PROJECTS\\GO", // lists places to look for Go code include modules
+			"GOROOT": "c:\\Go", //to point to the directory in which it was installed
+			"GOBIN": "d:\\PROJECTS\\GO\\bin", //binaries are installed to that directory
+			//To go get ..gousb :
+			"CGO_CFLAGS": "-Id:\\Libraries\\libusb-1.0.22\\include\\libusb-1.0",
+			"CGO_LDFLAGS": "-Ld:\\Libraries\\libusb-1.0.22\\MinGW64\\static -lusb-1.0"
+		}
+	}
+}
